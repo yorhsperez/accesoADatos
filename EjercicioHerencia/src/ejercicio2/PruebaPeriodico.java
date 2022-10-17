@@ -2,6 +2,7 @@ package ejercicio2;
 
 public class PruebaPeriodico {
     public static void main(String[] args) {
+        //Instancia un objeto periodico2 y se le pasan los valores a los metodos
         Periodico2 miPeriodico = new Periodico2();
         miPeriodico.ponNombre("El quijote");
         miPeriodico.ponPrecio(0.9f);

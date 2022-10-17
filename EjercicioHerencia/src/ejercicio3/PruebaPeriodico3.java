@@ -2,6 +2,7 @@ package ejercicio3;
 
 public class PruebaPeriodico3 {
     public static void main(String[] args) {
+        //Instancia objeto periodico3 y pasamos parametros
         Periodico3 p1 = new Periodico3();
         Periodico3 p2 = new Periodico3("El Mundo","25/09/2012");
         Periodico3 p3 = new Periodico3(64,0.9f);

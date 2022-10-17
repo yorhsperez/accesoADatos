@@ -2,6 +2,7 @@ package ejercicio1;
 
 public class PruebaLibro {
     public static void main(String[] args) {
+        ///Ejemplo instanciar objeto de clase libro y asignar valores a los atributos
         Libro miLibro = new Libro();
         miLibro.nombreAutor = "Frederick Forsyth";
         miLibro.titulo = "El manifiesto negro";

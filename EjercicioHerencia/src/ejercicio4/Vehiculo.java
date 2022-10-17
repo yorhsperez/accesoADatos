@@ -7,6 +7,13 @@ public class Vehiculo {
     private short cilindrada;
     private short potencia;
 
+    /**
+     * Constructor completo con todas las variables
+     * @param colorVehiculo
+     * @param numRuedas
+     * @param cilindrada
+     * @param potencia
+     */
     public Vehiculo(String colorVehiculo, byte numRuedas, short cilindrada, short potencia) {
         this.colorVehiculo = colorVehiculo;
         this.numRuedas = numRuedas;
@@ -20,9 +27,17 @@ public class Vehiculo {
         this.potencia = potencia;
     }
 
+    /**
+     * Constructor vacio para casos a continuacion
+     */
     public Vehiculo(){
 
     }
+
+    /**
+     *
+     * @return color de vehiculo
+     */
     public String getColorVehiculo() {
         return colorVehiculo;
     }

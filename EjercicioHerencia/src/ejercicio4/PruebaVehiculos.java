@@ -2,6 +2,7 @@ package ejercicio4;
 
 public class PruebaVehiculos {
     public static void main(String[] args) {
+        //Instanciamos objetos motocicleta con diferentes constructores
         Motocicleta MotoBarata1 = new Motocicleta("Rojo",(short)125,(short)25);
         Motocicleta MotoBarata2 = new Motocicleta("Rojo",(short)125,(short)25);
         Motocicleta MotoCara = new Motocicleta("Amarillo",(short)1000,(short)90);
